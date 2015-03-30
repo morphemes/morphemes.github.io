@@ -294,15 +294,15 @@ h3 {
     .nav ul {
         list-style: none;
         text-align: center;
-        padding: 5.8em 0 0 0;
+        padding: 5.1em 0 0 0;
         margin: 0;
     }
 
     .nav li {
-        font-size: 1.6em;
+        font-size: 1.9em;
         line-height: 1.9em;
         width: 3.0em;
-        margin-right: 0.7em;
+        margin-right: 0.9em;
         float: left;
     }
 
