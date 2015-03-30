@@ -26,7 +26,8 @@ header {
 #headAlign {
     margin: 0 auto;
     width: 71%;
-    max-width: 53.0em;
+    /*max-width: 53em;*/
+    max-width: 83em;
 }
 
 #logo {
@@ -128,7 +129,8 @@ h2 {
 
 #blogInfo {
     width: 71%;
-    max-width: 53.5em;
+    /*max-width: 53em;*/
+    max-width: 83em;
     height: 5.0em;
     margin: 0 auto;
 }
@@ -168,7 +170,8 @@ h2 {
 
 #blogPic {
     width: 71%;
-    max-width: 53em;
+    /*max-width: 53em;*/
+    max-width: 83em;
     margin: 0 auto;
 }
 
@@ -299,7 +302,7 @@ h3 {
         font-size: 1.6em;
         line-height: 1.9em;
         width: 3.0em;
-        margin-right: 1.0em;
+        margin-right: 0.7em;
         float: left;
     }
 
