@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+   
+    <title>Seth Jones - Portfolio</title>
+    <link rel="icon" type="image/png" href="http://www.morphemes.net/images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="theContainer">
+
+        <header>
+            <div class="topLeft"><a href="index.html"><img src="images/logo.png"></a></div>
+            
+            <nav class="topRight">
+                <ul style="list-style: none;">
+                    <li><a href="index.html">projects</a>
+                    </li>
+                    <li><a href="about.html">about</a>
+                    </li>
+                    <li><a href="mailto:seth@morphemes.net">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+            <div class="topLeftBot" style="border:none;"></div>
+            <div class="topLeftBot"></div>
+            <div class="topLeftBot"></div>
+            <div class="topLeftAlt"></div>
+        </header>
+        
+        
+        <div id="pageSubTitle">G Fit Station Generator and Ad Campaign</div>
+        
+        <div class="wow fadeIn detailText">
+            I worked on a campaign for Gatorade's G Fit products. This was a series of Pandora playlists based on votes from Pandora users. I designed the display ads, mobile and desktop forms, and html email. Once the stations were compiled, I built a drag and drop station player inspired by various workouts.
+        </div> 
+        <div class="detailText">
+            <strong>Role -</strong> interactive design<br>
+            <strong>Client -</strong> Gatorade
+        </div>        
+        
+       
+        <div class="wow fadeIn detailRow">
+            <img src="images/details_gatorade_2.jpg">
+        </div>
+        
+        <div class="wow fadeIn detailRow">
+            <img src="images/details_gatorade_1.jpg">
+        </div>
+               
+        <div class="wow fadeIn detailRow">
+            <img src="images/details_gatorade_3.jpg">
+        </div>
+        
+        <div class="wow fadeIn detailRow">
+            <img src="images/details_gatorade_4.jpg">
+        </div>
+        
+        <!--<div class="wow fadeIn detailRow">
+            <iframe class="bigIframe" width="940" height="529" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nnTHCQFLvFA?rel=0"></iframe>
+            <iframe class="smallIframe" width="740" height="416" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/nnTHCQFLvFA?rel=0"></iframe>
+        </div>-->
+        
+        
+        <div class="wow fadeIn detailRow">
+            <div class="youtube-player" data-id="nnTHCQFLvFA" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:529px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img src="//i.ytimg.com/vi/nnTHCQFLvFA/hqdefault.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div> </div> 
+        </div>
+        
+        
+        <div class="wow fadeIn" id="botNav">
+            <span style="margin:5px;"><a href="index.html">home</a></span>
+            <span style="margin:5px;">|</span>
+            <span style="margin:5px;"><a href="pan_wendys.html">previous project</a></span>
+            <span style="margin:5px;">|</span>
+            <span style="margin:5px;"><a href="tt_pirates.html">next project</a></span>    
+        </div>
+       
+                                         
+        <footer>
+            <div class="botLeft"></div>
+            <div class="botRight"></div>
+        </footer>
+
+    </div>
+
+<!-- lazy load video link -->
+    
+    <script>
+        (function () {
+            var v = document.getElementsByClassName("youtube-player");
+            for (var n = 0; n < v.length; n++) {
+                v[n].onclick = function () {
+                    var iframe = document.createElement("iframe");
+                    iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel=" + this.dataset.related + "&controls=" + this.dataset.control + "&showinfo=" + this.dataset.info);
+                    iframe.setAttribute("frameborder", "0");
+                    iframe.setAttribute("id", "youtube-iframe");
+                    iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;");
+                    if (this.dataset.fullscreen == 1) {
+                        iframe.setAttribute("allowfullscreen", "");
+                    }
+                    while (this.firstChild) {
+                        this.removeChild(this.firstChild);
+                    }
+                    this.appendChild(iframe);
+                };
+            }
+        })();
+    </script>
+    
+</body>
+</html>

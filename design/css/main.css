@@ -1,0 +1,670 @@
+@font-face {
+    font-family: frank;
+    src: url(../fonts/FRABK.TTF);
+}
+
+@font-face {
+    font-family: frankDemi;
+    src: url(../fonts/FRADM.TTF);
+}       
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: frank, sans-serif;
+    color: #7c7c7c;
+}
+
+
+
+a {
+    color: #2d5b83;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+img {
+    border: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    margin: 15px 0 0 15px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 5px 0 0 15px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 0 7px 0;
+    text-align: right;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    text-align: right;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    text-align: right;
+}
+
+h7 {
+    width: 440px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0 0 30px 0;
+    float: left;
+}
+
+h8 {
+    width: 440px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+    float: left;
+}
+
+#theContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.smallBlock {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: 10px;
+    
+}
+
+header {
+    width: 960px;
+    height: 190px;
+    float: left;
+    margin-top: 30px;
+}
+
+.topLeft {
+    width: 41px;
+    height: 40px;
+    float: left;
+    margin: 10px;
+}
+
+.topLeftAlt {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #bdbdbd;
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin: 5px 10px 10px 10px;
+}
+
+.topRight {
+    width: 900px;
+    height: 50px;
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+nav {
+    width: 700px;
+    height: 105px;
+    float: left;
+    font-size: 16px;
+    margin: 0 0 0 250px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+}
+
+nav li {
+    float: left;
+    line-height:24px;
+}
+
+nav ul li a {}
+
+.topLeftBot {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #bdbdbd;
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin: 5px 210px 0 10px;
+}
+
+footer {
+    width: 960px;
+    height: 50px;
+    float: left;
+}
+
+.botLeft {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-color: #bdbdbd;
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin: 30px 10px 50px 10px;
+}
+
+.botRight {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #bdbdbd;
+    width: 20px;
+    height: 10px;
+    float: right;
+    margin: 30px 10px 50px 10px;
+}
+
+
+#bpRobbie {
+    background: url(../images/bp_robbie.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#bpSlide {
+    background: url(../images/bp_slide.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#bpIcons {
+    background: url(../images/bp_index_icons.gif) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#bpShirt {
+    background: url(../images/bp_shirt.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+
+#bpRyan {
+    background: url(../images/ryan.gif) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#ehealthAni {
+    background: url(../images/ehealth_ani.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#ehealthAds {
+    background: url(../images/ehealth_ads.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#ehealthPartner {
+    background: url(../images/ehealth_partner.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+
+#panRemy {
+    background: url(../images/remy.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#panWendys {
+    background: url(../images/wendys.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#panGatorade {
+    background: url(../images/gatorade.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+#ttPirates {
+    background: url(../images/pirates.jpg) center center no-repeat;
+    background-size: 220px 220px;
+}
+
+
+/* thumbnail hover */
+
+.morph {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border: 1px solid #ffffff;
+}
+
+.morph:hover {
+    border: 15px solid #dddddd;
+    cursor: pointer;
+}
+
+
+/* detail page styles */
+
+.detailRow {
+    width: 940px;
+    float: left;
+    margin: 10px;
+}
+
+#botDesc {
+    width: 440px;
+    float: left;
+    margin: 50px 0 50px 250px;
+}
+
+
+
+.detailText {
+    width: 450px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px 20px 10px 10px;
+    float: left;
+}
+
+#botNav {
+    width: 940px;
+    height: 50px;
+    margin: 20px 10px 0 10px;
+    float: left;
+    text-align: right;
+}
+
+
+
+#pageTitle {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+}
+#pageSubTitle {
+    width: 940px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+
+
+/* about page styles */
+
+#aboutTxt {
+    width: 460px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+    line-height: 20px;
+}
+
+#aboutSubTitle {
+    width: 460px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 10px 10px 0;
+    float: left;
+} 
+
+h9 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    float: left;
+    width: 460px;
+    height: 30px;
+
+}
+
+.wideSmall {
+    width: 220px;
+    height: 99px;
+    float: left;
+    margin: 10px;
+    height: 70px;
+}
+
+#drums {
+    background: url(../images/thumb_drums.jpg) center center no-repeat;
+    width: 220px;
+    height: 99px;
+}
+
+#logic {
+    background: url(../images/thumb_logic.jpg) center center no-repeat;
+    width: 220px;
+    height: 99px;
+}
+
+#moto {
+    background: url(../images/thumb_moto.jpg) center center no-repeat;
+    width: 220px;
+    height: 99px;
+}
+
+#photog {
+    background: url(../images/thumb_photos.jpg) center center no-repeat;
+    width: 220px;
+    height: 99px;
+}
+
+.bigIframe {
+    display: block;
+}
+.smallIframe {
+    display: none;
+}
+
+
+
+
+
+/**************************************************************** max width    */
+
+@media only screen and (max-width: 1000px) {
+    #theContainer {
+        width: 760px;
+        margin: 0 auto;
+    }
+    header {
+        width: 760px;
+        height: 170px;
+        float: left;
+        margin-top: 30px;
+    }
+    
+    .topLeft {
+        width: 500px;
+        height: 40px;
+        margin: 0 0 20px 1.2%;
+    }
+    
+    
+    .topRight {
+        width: 610px;
+        height: 60px;
+        float: left;
+        margin: 15px 0 0 1%;
+    }
+
+    h4, h5 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    nav {
+        float: left;
+        margin: 0 0 0 0;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        width: 650px;
+    }
+    nav li {
+        float: left;
+        margin: 0 45px 0 0;
+        font-size: 50px;
+    }
+    nav ul li a {}
+    .topLeftBot,
+    .topLeftAlt {
+        display: none !important;
+    }
+ 
+    #pageSubTitle {
+        width: 740px;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0px 10px 20px 10px;
+        float: left;
+    }
+    
+    .detailText {
+        width: 740px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 10px 10px 20px 10px;
+        float: left;
+
+    }
+
+
+    #botNav {
+        width: 715px;
+        height: 70px;
+        margin: 40px 10px 0 7px;
+        float: left;
+        text-align: left;
+        font-size: 40px;
+    }
+    
+    
+    #aboutTxt {
+        width: 740px;
+        height: 220px;
+        float: left;
+        margin: 10px;
+    }  
+    
+    h10 {
+        width: 740px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+        float: left;
+
+    }
+    
+    
+    #bpRobbie {
+        background: url(../images/bp_robbie.jpg) center center no-repeat;
+    }
+
+    #bpSlide {
+        background: url(../images/bp_slide.jpg) center center no-repeat;
+    }
+
+    #bpIcons {
+        background: url(../images/bp_index_icons.gif) center center no-repeat;
+    }
+
+    #bpShirt {
+        background: url(../images/bp_shirt.jpg) center center no-repeat;
+    }
+
+
+    #bpRyan {
+        background: url(../images/ryan.gif) center center no-repeat;
+    }
+
+    #ehealthAni {
+        background: url(../images/ehealth_ani.jpg) center center no-repeat;
+    }
+    
+    #ehealthAds {
+        background: url(../images/ehealth_ads.jpg) center center no-repeat;
+    }
+
+    #ehealthPartner {
+        background: url(../images/ehealth_partner.jpg) center center no-repeat;
+    }
+
+
+    #panRemy {
+        background: url(../images/remy.jpg) center center no-repeat;
+    }
+
+    #panWendys {
+        background: url(../images/wendys.jpg) center center no-repeat;
+    }
+
+    #panGatorade {
+        background: url(../images/gatorade.jpg) center center no-repeat;
+    }
+
+    #ttPirates {
+        background: url(../images/pirates.jpg) center center no-repeat;
+    }
+    
+    #bpRobbie, #bpSlide, #bpIcons, #bpShirt, #bpRyan, #ehealthAds, #ehealthAni, #ehealthPartner, #panRemy, #panWendys, #panGatorade, #ttPirates {
+        width: 360px;
+        height: 360px;                
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }    
+         
+
+    footer {
+        width: 760px;
+        height: 50px;
+        float: left;
+    }
+    .botLeft {
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+        border-color: #bdbdbd;
+        width: 20px;
+        height: 10px;
+        float: left;
+        margin: 30px 10px 50px 10px;
+    }
+    .botRight {
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        border-color: #bdbdbd;
+        width: 20px;
+        height: 10px;
+        float: right;
+        margin: 30px 10px 50px 10px;
+    }
+
+    h3 {
+        display: none;
+    }
+
+
+/* detail styles */    
+
+    #pageTitle {
+        display: none;
+    }
+    .detailRow, .detailRow img {
+        width: 740px;
+    }
+
+
+    h2, h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    h7 {
+        width: 700px;
+        font-size: 44px !important;
+        font-weight: 700;
+        line-height: 55px;
+        margin: 0 0 30px 0;
+        float: left;
+    }
+
+    h8 {
+        width: 740px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 0 0 20px 0;
+        float: left;
+    }
+
+    h9 {
+        font-size: 44px !important;
+        font-weight: 700;
+        line-height: 46px;
+        margin: 0 0 10px 0;
+        float: left;
+        width: 460px;
+        height: 70px;
+    }
+
+    .wideSmall {
+        width: 220px;
+        height: 99px;
+        float: left;
+        margin: 16px;
+    }
+
+    #drums, #logic, #moto, #photog {
+        display: none;
+    }
+
+
+    #botDesc {
+        width: 740px;
+        float: left;
+        margin: 50px 0 10px 10px;
+
+    }
+
+    .bigIframe {
+        display: none;
+    }
+    .smallIframe {
+        display: block;
+    }
+
+
+
+
+
+
+}
