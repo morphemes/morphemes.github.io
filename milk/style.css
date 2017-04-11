@@ -1,0 +1,87 @@
+/* ------------------------------------------------------------
+ * Template File Valance
+ ------------------------------------------------------------ */
+
+body {
+	background-color: #ffffff;
+	}
+
+#container {
+	height: 1000px;
+	background-image: url('testbg.jpg');
+	background-repeat: no-repeat;
+	}
+
+#container_2 {
+	width: 100%;
+	height: 100%;
+	}
+
+/* ------------------------------------------------------------
+ * Footer
+ ------------------------------------------------------------ */	
+
+#footer {
+	margin: 60px 0 20px 17px;
+	width: 750px;
+	color: #aaacad;
+	font-weight: normal;
+	font-family: verdana,arial,sans-serif;
+	font-size: 9px;
+	line-height: 12px;
+	display: block;
+	}
+
+#footer a {
+	color: #336699;
+	}
+	
+#footer a:hover {
+	color: #f90;
+	}
+
+/* ------------------------------------------------------------
+ * Advertising
+ ------------------------------------------------------------ */
+
+#advertisement {
+	border: 0px solid #ffffff;
+	background-color: transparent;
+	padding: 0px;
+	}
+
+.advertisement_square {
+	top: 125px;
+	left: 702px;
+ 	width: 300px !important; 
+  	height: 250px !important; 
+	}
+
+.advertisement_tall {
+	top: 50px;
+	left: 702px;
+ 	width: 160px !important; 
+  	height: 600px !important;
+	}
+
+/* top default 50px, left default 702px */	
+.advertisement_double_wide {
+	top: 50px;
+	left: 702px;
+ 	width: 300px !important; 
+  	height: 600px !important;
+	background-color: transparent;
+	}	
+
+/* ------------------------------------------------------------
+ * Pandora Tips
+ ------------------------------------------------------------ */
+
+#pandora_tips a {
+	color: #666666;
+	}
+
+#pandora_tips a:hover {
+	color: #336699;
+	}
+
