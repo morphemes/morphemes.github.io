@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>test1</title>
+        
+        <style>
+            
+            html, body, div, span, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+
+             #theVid {
+                position: relative;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0;
+            } 
+            
+            #theOffer {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+            }    
+        </style>
+
+    </head>
+    
+    <body>
+        
+        <div id="theVid" >
+            
+            <div id="theOffer">
+                <img width="100%" src="vidoverlay.png">
+            </div>
+            
+            <video width="100%" autoplay muted loop>
+              <source src="vid.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+                     
+    </body>
+</html>
